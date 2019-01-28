@@ -1,0 +1,27 @@
+package java_basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+
+
+
+		System.out.println("ijsfljs");
+		
+		printSomeJunk(33);
+
+	}
+	
+	public static void printSomeJunk(int argument) {
+		
+		System.out.println("Blah blah "+ argument);
+	}
+
+	
+	
+	public static void printSomeJunk(int argument) {
+	
+		System.out.println("result: "+ argument+2);
+	}
+
+}

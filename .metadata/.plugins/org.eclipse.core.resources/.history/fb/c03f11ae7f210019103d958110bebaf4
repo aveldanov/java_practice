@@ -1,0 +1,17 @@
+package java_basics;
+
+public class MyUtils {
+	
+	public static void printSomeJunk(String argument) {
+		
+		System.out.println("Blah blah "+ argument);
+	}
+
+	
+	
+	public static void printSomeJunk(int argument) {
+	
+		System.out.println("result: "+ argument+2);
+	}
+
+}

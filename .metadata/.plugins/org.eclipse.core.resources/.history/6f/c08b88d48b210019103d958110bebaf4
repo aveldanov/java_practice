@@ -1,0 +1,16 @@
+package java_basics;
+
+import some_package.ExampleClass;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+
+
+
+
+	}
+	
+
+
+}

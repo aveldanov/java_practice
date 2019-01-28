@@ -1,0 +1,24 @@
+package java_basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+
+
+
+		System.out.println("ijsfljs");
+		
+		printSomeJunk();
+
+	}
+	
+	
+	
+	
+	public static void printSomeJunk() {
+		String words;
+		
+		System.out.println(words);
+	}
+
+}

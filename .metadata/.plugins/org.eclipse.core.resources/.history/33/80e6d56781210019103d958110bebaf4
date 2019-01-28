@@ -1,0 +1,22 @@
+package java_basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+
+
+//
+//		System.out.println("ijsfljs");
+//		MyUtils.printSomeJunk("fd");
+//		MyUtils.sum2Numbers(10,3);
+		MyUtils.printSomeJunk(2);
+		
+		int myvar = MyUtils.add10(99);
+		
+		System.out.println(myvar+100);
+
+	}
+	
+
+
+}
