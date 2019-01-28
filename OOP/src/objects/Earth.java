@@ -3,26 +3,15 @@ package objects;
 public class Earth {
 	public static void main(String args[]) {
 		
+		Human human1 = new Human("Tom", 76, 6, "blue");
+		Human human2 = new Human("Joe", 25, 7,"green");
+
 		
-		Human tom;
-		
-		tom = new Human();
-		tom.age = 5;
-		tom.eyeColor = "blue";
-		tom.heightInInches = 72;
-		tom.name = "Tom Veldanov";
-		
-		tom.speak();
+		human1.speak();
+		human2.speak();
+
 		
 		
-		
-		Human joe;
-		joe = new Human();
-		joe.age = 5;
-		joe.name = "Joe Veldanov";
-		joe.heightInInches = 70;
-		joe.eyeColor = "Red";
-		
-		joe.speak();
+	
 	}
 }
