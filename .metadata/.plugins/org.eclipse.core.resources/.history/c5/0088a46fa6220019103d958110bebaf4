@@ -7,8 +7,6 @@ public class Human {
 	int heightInInches;
 	String eyeColor;
 
-	
-	//constructor
 	public Human() {
 
 	}

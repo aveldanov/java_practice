@@ -19,10 +19,5 @@ public class Earth {
 		Human joe;
 		joe = new Human();
 		joe.age = 5;
-		joe.name = "Joe Veldanov";
-		joe.heightInInches = 70;
-		joe.eyeColor = "Red";
-		
-		joe.speak();
 	}
 }
