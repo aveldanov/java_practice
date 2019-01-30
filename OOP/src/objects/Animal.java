@@ -20,16 +20,15 @@ public class Animal {
 		this.food = food;
 	}
 
-
-
-
-
-
 	public void eat(){
 		System.out.println("I am "+ animal);
-		System.out.println("I am " + age + "old");
+		System.out.println("I am " + age + " old");
 		System.out.println("I eat " + food);
 		
 	}
 
+	
+	public void sleep() {
+		System.out.println("Sleeping...");
+	}
 }

@@ -1,8 +1,13 @@
 package objects;
 
-public class Fish {
+public class Fish extends Animal {
 	
-	private void swim() {
+	public Fish(String animal, int age, int weight, String food) {
+		super(animal, age, weight, food);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void swim() {
 		
 		System.out.println("Swimming...");
 
