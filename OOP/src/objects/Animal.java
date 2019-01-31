@@ -1,6 +1,6 @@
 package objects;
 
-public class Animal {
+public abstract class Animal {
 	
 	String animal;
 	int age;
@@ -31,4 +31,8 @@ public class Animal {
 	public void sleep() {
 		System.out.println("Sleeping...");
 	}
+	
+	
+	public abstract void move();
+	
 }

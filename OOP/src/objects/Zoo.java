@@ -17,18 +17,41 @@ public class Zoo {
 //		bird1.fly();
 //		
 //		
-//		Fish fish1 = new Fish("Fish",22,17,"flies");
+//		Animal fish1 = new Fish("Fish",22,17,"flies");
 //		fish1.swim();
 //		fish1.eat();
-
-		Chicken chick1 = new Chicken("Chicken", 33, 33, "people");
-
-		chick1.fly();
-
-		Sparrow spar1 = new Sparrow("Sparrow", 33, 44, "dead");
-
-		spar1.fly();
-
+//
+//		Chicken chick1 = new Chicken("Chicken", 33, 33, "people");
+//
+//		//chick1.fly();
+//
+//	Animal spar1 = new Sparrow("Sparrow", 33, 44, "dead");
+//
+//		spar1.fly();
+//
+//		
+//		spar1.move();
+//		fish1.move();
+//			
+//		
+//		
+//		moveAnimals(fish1);
+//		moveAnimals(spar1);
+//		
+		Flyable flyingBird = new Sparrow("Sparrow", 33, 44, "dead");
+		
+		Flyable flyingBird2 = new Bird("Bird",33,28,"worms");
+		
 	}
+//	
+//	
+//	
+//	public static void moveAnimals(Animal animal) {
+//		animal.move();
+//	}
+		
+		
+		
+		
 
 }

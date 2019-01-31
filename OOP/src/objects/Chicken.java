@@ -11,10 +11,10 @@ public class Chicken extends Bird{
 		
 	}
 
-	//Overriding the method defined in bird
-	public void fly() {
-		System.out.println("Not able to fly...");
-	}
+//	//Overriding the method defined in bird
+//	public void fly() {
+//		System.out.println("Not able to fly...");
+//	}
 	
 	
 }
