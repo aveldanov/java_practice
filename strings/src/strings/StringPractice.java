@@ -4,13 +4,12 @@ public class StringPractice {
 
 	public static void main(String[] args) {
 
-		
-		
-		String str = "ABCDEFG";
-		String extractedString = str.substring(2);
-		
-		System.out.println(extractedString);
-		
+		String str = "ABCDEB";
+
+		//int a = str.indexOf("B",3);
+		int b = str.lastIndexOf("E");
+
+		System.out.println(b);
 	}
 
 }
