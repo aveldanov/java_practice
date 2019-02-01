@@ -6,7 +6,7 @@ public class StringPractice {
 
 		String str = "ABCDEB";
 
-		//int a = str.indexOf("B",3);
+		// int a = str.indexOf("B",3);
 		int b = str.lastIndexOf("E");
 
 		System.out.println(b);
