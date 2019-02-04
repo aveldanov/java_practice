@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java_basics.MyUtils"/>
     <fullyQualifiedTypeName name="some_package.Example"/>
+    <fullyQualifiedTypeName name="Printout.BooleanTest"/>
 </qualifiedTypeNameHistroy>
